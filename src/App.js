@@ -38,7 +38,7 @@ function App() {
         <button onClick={onSubmit} className='submit'>Submit</button>
       </div>
       {api ? <Hasil api={api}/> : null}
-
+      {/* <Hasil api={api}/> */}
       
     </div>
   );

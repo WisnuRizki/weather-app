@@ -56,11 +56,41 @@ code {
   gap: 1.5em;
 }
 
-.cityResult,
-.weatherResult,
-.windResult,
-.tempResult{
+.resultBox{
   width: 20em;
   height: 20em;
   background-color: #3A6EA5;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  box-shadow: 6px 6px 6px 1px rgba(181,174,174,0.75);
+  -webkit-box-shadow: 6px 6px 6px 1px rgba(181,174,174,0.75);
+  -moz-box-shadow: 6px 6px 6px 1px rgba(181,174,174,0.75);
 }
+
+img{
+  width: 8em;
+  height: 8em;
+}
+
+.icon{
+  width: 30x;
+  height: 30px;
+}
+
+.resultBoxCountry{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.resultBox p{
+  margin-top: -0.1em;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+
