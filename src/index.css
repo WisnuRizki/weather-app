@@ -36,13 +36,13 @@ code {
 .inputCity{
   display: flex;
   gap: 1em;
-  width: 50%;
+  width: 70%;
   margin-bottom: 5em;
 }
 
 .inputField{
   height: 2em;
-  width: 90%;
+  width: 95%;
   font-size: 1.5em;
   padding-left: 1em;
 }
