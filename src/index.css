@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background-color: #EBEBEB ;
 }
 
 code {
@@ -49,6 +49,10 @@ code {
 
 .submit{
   width: 10%;
+  background-color: #38d9a9;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
 }
 
 .result{
@@ -91,6 +95,40 @@ img{
   margin-top: -0.1em;
   font-size: 3em;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 850px) {
+  /* For desktop: */
+  .App{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEBEB ;
+    gap: 1em;
+    padding-top: 7em;
+  }
+
+  .inputCity{
+    display: flex;
+    gap: 1em;
+    width: 95%;
+    margin-bottom: 5em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .button{
+    padding-right: 1em;
+  }
+  
+  .result{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
 }
 
 
